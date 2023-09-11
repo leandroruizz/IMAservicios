@@ -1,0 +1,32 @@
+
+.nav-lista {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 10px 10px;
+    left: 0;
+    top: 0;
+}
+
+.nav-item {
+    flex-grow: 1;
+    padding: 8px 0;
+    text-align: center;
+    background-color: rgb(79, 111, 255);
+    transition: all 0.5s ease; 
+    border-radius: 20px;
+}
+.nav-item:hover{
+    padding: 5px 10px;
+    background: white;
+    border-radius: 15px;
+}
+.nav-text{
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.nav-text:hover{
+    color: #ffffff;
+}
