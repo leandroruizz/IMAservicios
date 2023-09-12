@@ -1,11 +1,50 @@
+.contacto {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
 .formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
+.cont-contacto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #11003a;
+    text-align: center;
+    margin: 10px;
+}
 .titulo-contacto {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: #003a00;
+    color: #11003a;
+    margin: 10px;
+}
+
+.texto-contacto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    color: #818181;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.whatsapp {
+    padding: 8px 8px 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(0, 202, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
 }

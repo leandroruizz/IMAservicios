@@ -1,16 +1,23 @@
-
+.nav{
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; 
+}
 .nav-lista {
     display: flex;
     list-style: none;
     align-items: center;
-    padding: 10px 10px;
-    left: 0;
-    top: 0;
+    padding: 10px;
+    justify-content: space-around;
 }
 
 .nav-item {
-    flex-grow: 1;
-    padding: 8px 0;
+    padding: 10px;
     text-align: center;
     background-color: rgb(79, 111, 255);
     transition: all 0.5s ease; 
@@ -18,15 +25,15 @@
 }
 .nav-item:hover{
     padding: 5px 10px;
-    background: white;
+    background: rgb(255, 255, 255);
     border-radius: 15px;
 }
 .nav-text{
     text-decoration: none;
     font-weight: lighter;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 .nav-text:hover{
-    color: #ffffff;
+    color: hsl(227, 100%, 44%);
 }

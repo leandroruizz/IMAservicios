@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import './navigation.css'
+import './Navigation.css'
 
 export default function Navigation () {
     return (
@@ -9,7 +9,7 @@ export default function Navigation () {
                     <Link className='nav-text' href='./'>Servicios</Link>
                 </li>
                 <li className='nav-item'>
-                    <Link className='nav-text' href='/contacto'>Contacto</Link>
+                    <Link className='nav-text' href='/contact'>Contacto</Link>
                 </li>
             </ul>
         </nav>
