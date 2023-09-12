@@ -28,6 +28,11 @@ export default function Page () {
       <div>
         <h1 className={styles.titulo}>Clientes Satisfechos</h1>
         <p className={styles.texto}>Entre nuestros clientes actuales se encuentran instituciones destacadas en Córdoba, Argentina, como el Banco de Córdoba, la Asociación Gremial La Bancaria, la Universidad Blas Pascal y La Cantera. Estas organizaciones confían en los servicios integrales de Eco Industrial para optimizar su eficiencia energética, reducir costos operativos y maximizar los beneficios económicos de sus operaciones.</p>
+        <div className={styles.contclientes}>
+          <img className={styles.imgclientes} src="https://upload.wikimedia.org/wikipedia/commons/a/a7/BANCOR.png"/>
+          <img className={styles.imgclientes} src="https://www.ele-ve.com.ar/IMG/arton89713.jpg"/>
+          <img className={styles.imgclientes} src="https://www.ubp.edu.ar/wp-content/uploads/siv/logos/archivos/UBP_H_D_1.png"/>
+        </div>
       </div>
       <li className={styles.botoncontactenos}>
         <Link className={styles.textocontactenos} href='/contact'>Contáctenos</Link>

@@ -1,0 +1,16 @@
+.div-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.whatsapp {
+    padding: 8px 8px 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(0, 202, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+}
